@@ -1,0 +1,53 @@
+#article {
+    padding: 1.5em;
+}
+
+#article-title {
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+#article-author {
+    font-size: 1em;
+    margin-top: 1em;
+    color: #484c7b;
+}
+
+#article-time {
+    margin-top: 1em;
+}
+
+#article-time span {
+    margin-left: 0.2em;
+    font-size: 0.8em;
+    color: #3d3d3d;
+    vertical-align: text-top;
+}
+
+#article-time-post , #article-time-lastedit {
+    display: inline-block;
+}
+
+#article-time-lastedit {
+    margin-left: 0.5em;
+}
+
+.icon_time ,.icon_edit {
+    width: 1em;
+    height: 1em;
+}
+
+#article-content {
+    font-size: 1em;
+    margin-top: 1.5em;
+}
+
+#comments {
+    margin-top: 1em;
+    padding: 1.5em;
+}
+
+#comment-editor {
+    margin-top: 1em;
+    padding: 1.5em;
+}

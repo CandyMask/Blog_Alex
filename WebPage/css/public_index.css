@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Microsoft Yahei';
+}
+
+*::selection {
+    background-color: #484c7b;
+    color: #fff;
+}
+
+.border-radius {
+    border-radius: 20px;
+}
+
+.transparent-bg {
+    background-color:rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(3px);
+}
+
+a:hover{
+    color: #000;
+}
+
+html,body {
+    height: 100%;
+}
+
+header , nav , main , footer {
+    min-width: 91rem;
+}
+
+body {
+    background-image: url("../img/bgimg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    height: 3rem;
+    background-color: #484c7b;
+    color: #fff;
+    vertical-align: bottom;
+}
+
+#icon-header {
+    height: 3rem;
+    margin-left: 1rem;
+}
+
+#website-name {
+    vertical-align: top;
+    font-weight: lighter;
+}
+
+nav {
+    height: 2.5rem;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    align-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #484c7b;
+    font-size: 1.15rem;
+    font-weight: lighter;
+}
+
+nav a:hover{
+    color: #000;
+}
+
+main {
+    width: 100%;
+    min-height: calc(100% - 15.5rem);
+}
+
+#main-container {
+    white-space: nowrap;
+    width: 91rem;
+    margin: 0 auto;
+}
+
+#content {
+    width: 75rem;
+    display: inline-block;
+    vertical-align: top;
+    white-space: wrap;
+}
+
+aside {
+    width: 15rem;
+    display: inline-block;
+    margin-left: 1em;
+}
+
+aside span {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+aside ul {
+    list-style: none;
+    margin-top: 1em;
+    font-size: 0.9em;
+}
+
+aside li {
+    margin-top: 3px;
+}
+
+aside a {
+    text-decoration: none;
+    font-weight: lighter;
+    color: #484c7b;
+    outline: none;
+}
+
+.sort-container {
+    text-align: center;
+}
+
+.fast-sort {
+    margin: 20px auto;
+    display: inline-block;
+}
+
+#searcher {
+    border-width: 0;
+    outline: 0;
+    border-radius: 0.25em;
+    text-align: center;
+}
+
+#searcher-submit {
+    background-image: url(../img/icon_search.png);
+    background-size: 100%;
+    width: 1rem;
+    height: 1rem;
+    border-width: 0;
+    background-color: rgba(255, 255, 255, 0);
+    vertical-align: -0.15em;
+    
+}
+
+#searcher-submit:hover {
+    cursor: pointer;
+}
+
+.aside-button:hover {
+    box-shadow: 5px 5px 10px rgba(72, 76, 123, 0.75);
+}
+
+#aside-buttons {
+    display: inline-block;
+    position: fixed;
+    right: 5%;
+    bottom: 15%;
+}
+   
+.aside-button {
+    background-color: #fff;
+    border-radius: 25%;
+    width: 65px;
+    height: 65px;
+    align-content: center;
+    text-align: center;
+    margin-top: 15px;
+    transition: box-shadow 0.25s ease-in-out;
+}
+
+.aside-button img {
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    height: 10rem;
+    background-color: black;
+    display: flex;
+}
+
+#footer-about {
+    color: #fff;
+    text-align: left;
+    margin: auto;
+}
+
+footer td {
+    font-size: 0.5em;
+    padding-right: 1em;
+}
