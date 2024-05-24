@@ -44,6 +44,13 @@ header {
     vertical-align: bottom;
 }
 
+.input-text {
+    border-width: 0;
+    outline: 0;
+    border-radius: 4px;
+    text-align: center;
+}
+
 #icon-header {
     height: 3rem;
     margin-left: 1rem;
@@ -108,7 +115,7 @@ aside ul {
 }
 
 aside li {
-    margin-top: 3px;
+    margin-top: 0.3rem;
 }
 
 aside a {
@@ -123,15 +130,12 @@ aside a {
 }
 
 .fast-sort {
-    margin: 20px auto;
+    margin: 1rem auto;
     display: inline-block;
 }
 
 #searcher {
-    border-width: 0;
-    outline: 0;
-    border-radius: 0.25em;
-    text-align: center;
+    height: 1.5rem;
 }
 
 #searcher-submit {
@@ -141,7 +145,7 @@ aside a {
     height: 1rem;
     border-width: 0;
     background-color: rgba(255, 255, 255, 0);
-    vertical-align: -0.15em;
+    vertical-align: -0.15rem;
     
 }
 
@@ -163,8 +167,8 @@ aside a {
 .aside-button {
     background-color: #fff;
     border-radius: 25%;
-    width: 65px;
-    height: 65px;
+    width: 4rem;
+    height: 4rem;
     align-content: center;
     text-align: center;
     margin-top: 15px;
@@ -172,8 +176,8 @@ aside a {
 }
 
 .aside-button img {
-    width: 50px;
-    height: 50px;
+    width: 3rem;
+    height: 3rem;
 }
 
 footer {
@@ -190,5 +194,9 @@ footer {
 
 footer td {
     font-size: 0.5em;
-    padding-right: 1em;
+    padding-right: 1rem;
+}
+
+footer span {
+    margin: 0 1rem;
 }

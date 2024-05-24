@@ -1,11 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>登录</title>
+    <link rel="icon" href="../img/icon.jpg">
+    <link rel="stylesheet" href="../css/public_index.css">
+    <link rel="stylesheet" href="../css/background_manage_login.css">
 </head>
 <body>
-    
+
+    <header>
+        <div id="icon-and-name">
+            <img src="../img/icon.jpg" title="Burn Your Soul" id="icon-header">
+            <span id="website-name">ALEX</span>
+        </div>
+    </header>
+
+    <nav class="transparent-bg">
+            <span><a href="./index.html">首页</a></span>
+            &nbsp;&nbsp;
+            <span><a href="#">技术记录</a></span>
+            &nbsp;&nbsp;
+            <span><a href="#">生活感想</a></span>
+            &nbsp;&nbsp;
+            <span><a href="#">关于</a></span>
+            &nbsp;&nbsp;
+            <span><a href="#">其他链接</a></span>
+    </nav>
+
+    <main>
+
+
+        <div id="main-container">
+                    <br>
+                    <div id="form-container"  class="transparent-bg border-radius">
+
+                        <div id="form-title"><img src="../img/icon.jpg" alt=""></div>
+                    
+                        <div id="login-container">
+                           
+                           <form action="" method="post">
+                               
+                               <table>
+                                   <tbody>
+                                       <tr>                                           
+                                           <td><input class="transparent-bg input-text" type="text" name="username" id="username" placeholder="用户名"></td>
+                                       </tr>
+                                       <tr>
+                                           <td><input class="transparent-bg input-text" type="password" name="password" id="password" placeholder="密码"></td>
+                                       </tr>
+                                       <tr>
+                                           <td>
+                                            <a href=""><img id="verfcode-img" src="" alt="验证码" title="点击刷新验证码"></a>
+                                            <input class="transparent-bg input-text" type="text" name="verfcode" id="verfcode" placeholder="验证码">
+                                        </td>
+                                       </tr>
+                                   </tbody>
+                               </table>
+                               <input class="transparent-bg input-button" id="login-button" type="submit" value="登陆">
+                           </form>
+                       </div>
+                    
+                    </div>
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+    </main>
+
+
+
+
+    <footer>
+        <table id="footer-about" align="content">
+            <thead>
+                <th><span>关于作者</span></th>
+                <th><span>关于博客</span></th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span>Alex。</span></td>
+                    <td><span>内容仅供参考。</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </footer>
+
 </body>
+<script src="../js/flower_slowdown.js"></script>
 </html>
